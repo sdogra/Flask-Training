@@ -11,4 +11,4 @@ if it runs successfully or whether you are missing a certain dependency.
 
 # Running the Application
 Ensure that the environment variable FLASK_APP=training.py and then execute the command "flask run". This will
-run the application.
+run the application. Open up your browser to http://localhost:5000 to view the homepage of the application.
