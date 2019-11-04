@@ -1,8 +1,6 @@
 from app import app
 from flask import render_template
-import requests
 import lxml.html as lh
-import pandas as pd
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
