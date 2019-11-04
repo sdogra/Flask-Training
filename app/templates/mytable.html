@@ -1,0 +1,16 @@
+{% extends "index.html" %}
+{% block content %}
+
+<div class = "caenTable">
+    <table>
+        {% for row in table %}
+        <tr>
+            {% for entry in row %}
+                <td>{{ entry }} </td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+{% endblock %}
